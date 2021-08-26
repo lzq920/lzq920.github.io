@@ -1,0 +1,93 @@
+base_info:
+  title: Keep Theme
+  author: Keep Team
+  url: https://keep.xpoet.cn/
+
+style:
+  # Theme primary color
+  primary_color: "#0066CC"
+
+  # Avatar (You can use local image or image external link)
+  avatar: /images/avatar.svg
+
+  # Favicon (You can use local image or image external link)
+  favicon: /images/logo.svg
+
+  # Article image align position, value: left | center
+  article_img_align: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Content area max width
+  content_max_width: 920px
+
+  # Mouse hover
+  hover:
+    shadow: false # shadow effect when the mouse hover
+    scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: false
+    background_img: /images/bg.svg # You can use local image or image external link
+    description: Keep writing and Keep loving.
+
+  # Scroll style settings
+  scroll:
+    progress_bar:
+      enable: false
+    percent:
+      enable: false
+
+social_contact:
+  enable: false
+  links:
+    github: https://github.com/lzq920              # your GitHub URL
+    weixin:               # your WeChat QR-Code URL
+    qq:                   # your QQ QR-Code URL
+    weibo:                # your WeiBo URL
+    zhihu:                # your ZhiHu URL
+    twitter:              # your twitter URL
+    facebook:             # your facebook URL
+    email: lzq920@vip.qq.com               # your email
+
+menu:
+  Home: /
+  Archives: /archives
+  Github: https://github.com/lzq920
+
+home_article:
+  category:
+    enable: false     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: false     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+
+code_copy:
+  enable: false
+  style: default        # values: default | mac
+
+
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+
+  # If true, open TOC every time when you enter the article page
+  init_open: true
+
+copyright_info:
+  enable: true
+
+pjax:
+  enable: true
+
+footer:
+  since: 2021      # the starting year of your website, Can be null
+  icp:             # ICP record number of your website, Can be null  

@@ -1,7 +1,7 @@
 base_info:
-  title: Keep Theme
-  author: Keep Team
-  url: https://keep.xpoet.cn/
+  title: Eleven's Blog
+  author: eleven
+  url: /
 
 style:
   # Theme primary color
@@ -24,21 +24,21 @@ style:
 
   # Mouse hover
   hover:
-    shadow: false # shadow effect when the mouse hover
-    scale: false # scale effect when the mouse hover
+    shadow: true # shadow effect when the mouse hover
+    scale: true # scale effect when the mouse hover
 
   # First screen
   first_screen:
-    enable: false
-    background_img: /images/bg.svg # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    enable: true
+#    background_img: /images/bg.svg # You can use local image or image external link
+    description: 唯日月星辰与信仰不灭，愿永远少年
 
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: false
+      enable: true
     percent:
-      enable: false
+      enable: true
 
 social_contact:
   enable: false
@@ -59,14 +59,14 @@ menu:
 
 home_article:
   category:
-    enable: false     # show category in home page article block
+    enable: true     # show category in home page article block
     limit: 3          # max number of categories shown in home page article block
   tag:
-    enable: false     # show tags in home page article block
+    enable: true     # show tags in home page article block
     limit: 5          # max number of tags shown in home page article block
 
 code_copy:
-  enable: false
+  enable: true
   style: default        # values: default | mac
 
 
@@ -90,4 +90,4 @@ pjax:
 
 footer:
   since: 2021      # the starting year of your website, Can be null
-  icp:             # ICP record number of your website, Can be null  
+  icp:             # ICP record number of your website, Can be null

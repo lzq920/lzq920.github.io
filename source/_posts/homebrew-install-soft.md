@@ -1,6 +1,9 @@
+---
+
+title: 通过HomeBrew安装常用软件
+
 --- 
-title: 通过HomeBrew安装常用软件 
---- 
+
 
 每次重置完 MacBook Pro 以后安装软件都很麻烦！
 

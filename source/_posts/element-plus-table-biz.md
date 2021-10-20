@@ -324,12 +324,12 @@ export default defineComponent({
             return h(resolveComponent('el-button'), {
               type: 'text',
               onClick: () => alert(row.name)
-            }, '操作')
+            }, ()=>'操作')
           },
           headerSlot: (row) => {
             return h(resolveComponent('el-button'), {
               type: 'text'
-            }, '新增')
+            }, ()=>'新增')
           }
         }],
       tableConfig: {

@@ -1,5 +1,6 @@
 ---
 title: 原生App内部嵌入WebViewJavascriptBridge
+date: 2021-09-07 14:00
 ---
 
 原生App嵌入WebViewJavascriptBridge协议，实现前端调用原生系统功能
